@@ -16,7 +16,7 @@ nav:
   - label: "Verhalen"
     anchor: "#verhalen"
   - label: "Contact"
-    anchor: "mailto:christine@eigenwijsje.nl"
+    anchor: "mailto:christine@eigenweisjehoogbegaafdheid.nl"
 
 markdown: kramdown
 permalink: pretty
