@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="nav">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Eigenwijsje — home">
+      <img src="{{ '/assets/images/logo.jpg' | relative_url }}" alt="Eigenwijsje logo">
+    </a>
+    <ul class="navlinks">
+      {% for item in site.nav %}
+        {% unless item.anchor contains "mailto:" %}
+        <li><a href="{{ item.anchor }}">{{ item.label }}</a></li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+    <a class="btn btn-primary" href="mailto:{{ site.contact_email }}">Plan een kennismaking</a>
+  </div>
+</header>

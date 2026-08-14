@@ -1,0 +1,28 @@
+title: Eigenwijsje
+description: >-
+  Coaching voor eigenwijze en gevoelige kinderen — en hun ouders.
+url: "https://eigenwijsje.nl"
+baseurl: ""
+
+contact_email: "christine@eigenwijsje.nl"
+
+# Nav shown in the header include
+nav:
+  - label: "Voor wie"
+    anchor: "#voorwie"
+  - label: "Aanpak"
+    anchor: "#aanpak"
+  - label: "Verhalen"
+    anchor: "#verhalen"
+  - label: "Contact"
+    anchor: "mailto:christine@eigenwijsje.nl"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
